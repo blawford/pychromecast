@@ -79,8 +79,7 @@ print(
 
 bbciplayer = BbcIplayerController()
 cast.register_handler(bbciplayer)
-bbciplayer.launch()
-bbciplayer.play_media(MEDIA_ID, False, **METADATA)
+bbciplayer.quick_play(MEDIA_ID, False, **METADATA)
 
 sleep(10)
 
